@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/photo_gallary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vacancy"
+        android:layout_marginTop="24dp"
+        android:layout_toLeftOf="@+id/news"
+        android:src="@drawable/photo_gallary_selector" />
+
+    <ImageView
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/photo_gallary"
+        android:src="@drawable/news_selector" />
+
+    <ImageView
+        android:id="@+id/vacancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/photo_gallary"
+        android:layout_alignTop="@+id/partners_converted"
+        android:src="@drawable/vacancy_selector" />
+
+    <ImageView
+        android:id="@+id/partners_converted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/news"
+        android:layout_centerVertical="true"
+        android:src="@drawable/partners_selector" />
+
+</RelativeLayout>

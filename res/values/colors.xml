@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="genre">#666666</color>
+    <color name="text_color">#888888</color>
+    <color name="list_divider">#7C9ED9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="title">#7C9ED9</color>
+    <color name="about">#7C9ED9</color>
+    <color name="color1">#7C9ED9</color>
+
+</resources>

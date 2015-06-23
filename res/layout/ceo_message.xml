@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/background">
+	
+    <TextView
+        
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/ceo_name"
+        android:textAlignment="gravity"
+        android:textColor="#7C9ED9"
+        android:textSize="@dimen/ceo"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toLeftOf="@+id/imageView1"
+        android:ellipsize="marquee"
+        android:gravity="left"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:text="@string/ceo_message"
+        android:textSize="@dimen/genre"
+        android:textColor="@color/list_row_hover_start_color" 
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:text="@string/chief"  
+        android:textColor="#7C9ED9"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:contentDescription="@string/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView2"
+        android:src="@drawable/ceo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView4" 
+        android:text="@string/message_next"
+        android:textSize="@dimen/genre"
+        android:textColor="@color/list_row_hover_start_color"
+        android:textStyle="italic" />
+
+</RelativeLayout>

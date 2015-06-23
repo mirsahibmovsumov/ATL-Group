@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SCROLLER_ID"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/managment_backgroud"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/taghiyev_converted"
+        android:ellipsize="marquee"
+        android:gravity="left"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="false"
+        android:text="@string/management_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#b5d7d6"
+        android:textSize="@dimen/ceo" />
+
+</ScrollView>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/send_selector" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_above="@+id/send"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/message"
+        android:textColor="#FFFFFF"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:hint="@string/phone"
+        android:textColor="#FFFFFF"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/phone"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/company_name" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:hint="@string/name_surname"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/send"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text= "@string/getInTouch"
+        android:textColor="@color/about"
+        android:textSize="22sp" />
+
+    <ImageView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/contact_selector" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/send"
+        android:layout_toRightOf="@+id/contact"
+        android:src="@drawable/location_selector" />
+
+</RelativeLayout>

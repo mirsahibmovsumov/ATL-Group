@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="consulting_name">Consulting</string>
+    <string name="electronics_name">Electronics</string>
+    <string name="rentacar_name">Rent a car</string>
+    <string name="engineering_name">Engineering</string>
+    <string name="infotech_name">Info tech</string>
+    <string name="audit_name">Audit</string>
+    <string name="location">Location</string>
+    <string name="partners_name">Partners</string>
+    <string name="desc">Image</string>
+    <string name="app_name">    "               "   ATL info-tech </string>
+    <string name="chief">"                         " Chief Execuite Officer</string>
+    <string name="ceo_name">Rashad Mirzayev</string>
+    <string name="cmo_name">Teymur Hajiyev</string>
+    <string name="cpmo_name">Teymur Taghiyev</string>
+    <string name="cbd_name">Roman Nikitin</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_title">About company</string>
+    <string name="about_text"><p>		High rate of economic development in Azerbaijan creates favorable 
+	    conditions for the expansion of the 
+	    private sector and for the increase in production industry and services.
+	    Economic indicators in the country in recent years, as well as our successes 
+	    on the world stage in the another proof for above mentioned.</p> <p>	    	Founded in 2012, ATL Group is a group of companies covering a variety of business sectors.
+	    ATL Group offers a wide range of activities, which includes information technology,
+	     business consulting and audit services, the sales of electrical products,
+	      car rental, construction, logistic and so on. ATL Group which 
+	      combines a variety of activities, continues to make confident steps intothe world of business
+	    in accordance with the leading standarts, using innovative methonds 
+	    of managments.</p> <p><b>\n	Currently ATL Group includes six companies:</b></p>"                             "
+	    "              " <p> -" " <b>ATL Consulting</b></p>"                             " 
+	   "              " <p>-" " <b>ATL Electronics</b></p>"                             "
+	    "              " <p>-" " <b>ATL Rent a Car</b></p>"                             "
+	    "              " <p>-" " <b>ATL Info Tech</b></p>"                             "
+	    "              " <p>-" " <b>ATL Engineering</b></p>"                             "
+	    "              " <p>-" " <b>ATL Audit</b></p>"                             "</string>
+    <string name="electronics_text"><p>		High rate of economic development in Azerbaijan creates favorable 
+	    conditions for the expansion of the 
+	    private sector and for the increase in production industry and services.
+	    Economic indicators in the country in recent years, as well as our successes 
+	    on the world stage in the another proof for above mentioned.</p> <p>	    	Founded in 2012, ATL Group is a group of companies covering a variety of business sectors.
+	    ATL Group offers a wide range of activities, which includes information technology,
+	     business consulting and audit services, the sales of electrical products,
+	      car rental, construction, logistic and so on. ATL Group which 
+	      combines a variety of activities, continues to make confident steps intothe world of business
+	    in accordance with the leading standarts, using innovative methonds 
+	    of managments.</p> <p><b>\n	Currently ATL Group includes six companies:</b></p>"                             "
+	    "              " <p> -" " <b>ATL Consulting</b></p>"                             " 
+	   "              " <p>-" " <b>ATL Electronics</b></p>"                             "
+	    "              " <p>-" " <b>ATL Rent a Car</b></p>"                             "
+	    "              " <p>-" " <b>ATL Info Tech</b></p>"                             "
+	    "              " <p>-" " <b>ATL Engineering</b></p>"                             "
+	    "              " <p>-" " <b>ATL Audit</b></p>"                             "</string>
+    <string name="our_mission_name">Our Mission</string>
+    <string name="our_mission"> " " The main mission of our company - the improvement in the areas of business, improving quality and satisfanction of client needs, the introduction of innovative methods of management , hold a reputation of a confident company, whose main resource is its human capital.</string>
+    <string name="our_vision_name">Our Vision</string>
+    <string name="our_vision">The vision of our company - being the company responsible to the community, carrying out successful projects, justly appreciating the work of our employees and attracting qualified staff.</string>
+    <string name="management_title">Management</string>
+    <string name="management_text"><p><i>Rashad Mirzayev </i></p>" "-" " <p> CEO. </p> \n <p>Rashad Mirzayev is the group Chief Execuite Officer since 2012. His academic credentials include
+	        BSc Businnes studies degree from City University Cass Business School (UK)
+	         and Bellerbys College Brighton(UK).</p> He possesses broad expertise in trading (expot and import),
+	         construction and logistics realms. In addition to his current role, Mr. Mirzayev is also a vice president at 
+	         Azerbaijan Project Managament Association (AZPMA).</string>
+    <string name="ceo_message">" "The core development philosophy of ATL Group is based on organic growth."  "The principles of philosophy rely on our professional squad members and complete business approach. We invest in people matching this philosophy and utilize their expertise which is the base for organic growth."  " So far we </string>
+    <string name="message_next">have successfully managed to distinguish ourselves in different business spheres. Fair, transparent and analytical approach has been the key success factor of our business growth. I am pretty confident that there is still enough room and challance for further developments and existing principles will lead us to betterment our archievements in the future.</string>
+    <string name="ceo_message_title">CEO Message</string>
+    <string name="getInTouch">Get in touch</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="message">Message</string>
+    <string name="company_name">Company name</string>
+    <string name="name_surname">Name, Surname</string>
+
+</resources>

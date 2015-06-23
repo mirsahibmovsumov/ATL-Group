@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/our_vision"
+        style="@style/ButtonText"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ceo_message"
+        android:background="@drawable/imageview_blue"
+        android:text="@string/our_vision_name" />
+
+    <Button
+        android:id="@+id/ceo_message"
+        style="@style/ButtonText"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/our_mission"
+        android:background="@drawable/imageview_blue"
+        android:text="@string/ceo_message_title" />
+
+    <Button
+        android:id="@+id/about"
+        style="@style/ButtonText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/imageview_blue"
+        android:text="@string/about_title" />
+
+    <Button
+        android:id="@+id/managment"
+        style="@style/ButtonText"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/about"
+        android:background="@drawable/imageview_blue"
+        android:text="@string/management_title" />
+
+    <Button
+        android:id="@+id/our_mission"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/managment"
+        android:background="@drawable/imageview_blue"
+        android:padding="10dp"
+        android:text="@string/our_mission_name" />
+
+</RelativeLayout>
